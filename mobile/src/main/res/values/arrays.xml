@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_customaction_entries">
+        <item>@string/preferences_customaction_entry_favourite</item>
+        <item>@string/preferences_customaction_entry_repeat_mode</item>
+        <item>@string/preferences_customaction_entry_shuffle</item>
+        <item>@string/preferences_customaction_entry_fast_forward</item>
+    </string-array>
+
+    <string-array name="preferences_customaction_values">
+        <item>@string/preferences_customaction_value_favourite</item>
+        <item>@string/preferences_customaction_value_repeat_mode</item>
+        <item>@string/preferences_customaction_value_shuffle</item>
+        <item>@string/preferences_customaction_value_fast_forward</item>
+    </string-array>
+
+    <string-array name="preferences_customaction_default_values">
+        <item>@string/preferences_customaction_value_favourite</item>
+        <item>@string/preferences_customaction_value_repeat_mode</item>
+        <item>@string/preferences_customaction_value_shuffle</item>
+    </string-array>
+
+    <string-array name="empty_array"/>
+</resources>

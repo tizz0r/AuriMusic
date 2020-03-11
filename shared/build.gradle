@@ -1,0 +1,23 @@
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 3
+        versionName '1.2'
+    }
+
+
+}
+
+dependencies {
+
+    implementation 'androidx.media:media:1.1.0'
+    implementation 'androidx.preference:preference:1.1.0'
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.11.3'
+}

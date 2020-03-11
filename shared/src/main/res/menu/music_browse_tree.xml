@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootId">
+
+    <item
+        android:id="@+id/browse_shuffle"
+        android:title="@string/shuffle"
+        android:icon="@drawable/ic_shuffle_24dp"/>
+
+    <item
+        android:id="@+id/browse_favourite"
+        android:title="@string/celi_favourites"
+        android:icon="@drawable/ic_hearts_filled_small"/>
+
+    <item
+        android:id="@+id/browse_recent"
+        android:title="@string/recent"
+        android:icon="@drawable/ic_access_time_small"/>
+
+    <item
+        android:id="@+id/browse_search"
+        android:icon="@drawable/baseline_search_24"
+        android:title="@string/search">
+        <menu>
+
+            <item
+                android:id="@+id/browse_search_tracks"
+                android:icon="@drawable/baseline_play_circle_outline_24"
+                android:title="@string/tracks" >
+                <menu />
+            </item>
+
+            <item
+                android:id="@+id/browse_search_albums"
+                android:icon="@drawable/baseline_album_24"
+                android:title="@string/albums" >
+                <menu />
+            </item>
+
+            <item
+                android:id="@+id/browse_search_artists"
+                android:icon="@drawable/baseline_recent_actors_24"
+                android:title="@string/artists" >
+                <menu />
+            </item>
+
+            <item
+                android:id="@+id/browse_search_genres"
+                android:icon="@drawable/ic_genres"
+                android:title="@string/genres" >
+                <menu />
+            </item>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/browse_playlist"
+        android:title="@string/playlists"
+        android:icon="@drawable/baseline_queue_music_24" >
+        <menu />
+    </item>
+
+</menu>

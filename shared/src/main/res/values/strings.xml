@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="queue_title">Queue</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="search">Search</string>
+    <string name="celi_favourites">Favourites</string>
+    <string name="recent">Recently Added</string>
+    <string name="playlists">Playlists</string>
+    <string name="tracks">Tracks</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="genres">Genres</string>
+    <string name="custom_action_favourite" translatable="false">custom_action_favourite</string>
+    <string name="custom_action_repeat_mode" translatable="false">custom_action_repeat_mode</string>
+    <string name="custom_action_shuffle" translatable="false">custom_action_shuffle</string>
+    <string name="custom_action_fast_forward" translatable="false">custom_action_fast_forward</string>
+    <string name="custom_action_rewind" translatable="false">custom_action_rewind</string>
+    <string name="music_service_tag" translatable="false">.MusicServiceAuri</string>
+    <string name="browser_root_id" translatable="false">AuriMusic_Root</string>
+    <string name="shared_preferences_favourite" translatable="false">PREFS_FAV_KEY</string>
+    <string name="app_user_agent" translatable="false">AURI_MUSIC V1</string>
+    <string name="shuffle_artist_title">Shuffle all tracks by </string>
+
+    <string name="error_message_permission">Please open the app on your device and grant the required permissions</string>
+    <string name="error_message_setup">Setup was not completed, please open the app on your device</string>
+    <string name="error_message_no_search_results">No search results</string>
+
+    <string name="preferences_excludedplaylists_key" translatable="false">preferences_excludedplaylists_key</string>
+    <string name="preferences_excludeshort_key" translatable="false">preferences_excludeshort_key</string>
+    <string name="preferences_shuffleonerror_key" translatable="false">preferences_shuffleonerror_key</string>
+    <string name="preferences_showallartists_key" translatable="false">preferences_showallartists_key</string>
+    <string name="preferences_showalbumart_key" translatable="false">preferences_showalbumart_key</string>
+    <string name="preferences_showsearch_key" translatable="false">preferences_showsearch_key</string>
+    <string name="preferences_customaction_key" translatable="false">preferences_customaction_key</string>
+    <string name="preferences_launch_setup_key" translatable="false">preferences_launch_setup_key</string>
+    <string name="preferences_search_everywhere" translatable="false">preferences_search_everywhere</string>
+    <string name="preferences_search_folder_key" translatable="false">preferences_search_folder_key</string>
+    <string name="preferences_setup_complete_key" translatable="false">preferences_setup_complete_key</string>
+    <string name="preferences_customaction_value_favourite" translatable="false">preferences_customaction_value_favourite</string>
+    <string name="preferences_customaction_value_repeat_mode" translatable="false">preferences_customaction_value_repeat_mode</string>
+    <string name="preferences_customaction_value_shuffle" translatable="false">preferences_customaction_value_shuffle</string>
+    <string name="preferences_customaction_value_fast_forward" translatable="false">preferences_customaction_value_fast_forward</string>
+    <string name="lastplayed_queue_key" translatable="false">lastplayed_queue_key</string>
+    <string name="lastplayed_id_key" translatable="false">lastplayed_id_key</string>
+    <string name="lastplayed_pos_key" translatable="false">lastplayed_pos_key</string>
+    <string name="lastplayed_shuffle_key" translatable="false">lastplayed_shuffle_key</string>
+    <string name="lastplayed_repeat_key" translatable="false">lastplayed_repeat_key</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auri Music</string>
+
+    <string name="setup_welcome_text">Thank you for downloading Auri Music\nTap \"Begin\u00A0Setup\" to start</string>
+    <string name="setup_button_begin">Begin Setup</string>
+    <string name="setup_button_next">Next</string>
+    <string name="setup_button_back">Back</string>
+    <string name="setup_permission_text">Auri Music requires access to storage to be able to play music on your device</string>
+    <string name="setup_permission_grant_permission">Grant Permission</string>
+    <string name="setup_permission_grant_permission_disabled">Permission granted</string>
+    <string name="setup_select_folder_text">Where do you want Auri Music to search for music files?</string>
+    <string name="setup_select_folder_search_everywhere">Search my entire device</string>
+    <string name="setup_select_folder_search_folder">Only search in this location</string>
+    <string name="setup_other_preferences_text">The setup is now finished, if you\'d like you can check out the settings menu for more customization options.</string>
+    <string name="setup_button_finish">Finish Setup</string>
+
+    <string name="preferences_title">Settings</string>
+    <string name="preferences_category_general">General</string>
+    <string name="preferences_category_auto">Android Auto</string>
+    <string name="preferences_category_advanced">Advanced</string>
+    <string name="preferences_showalbumart_title">Display album art</string>
+    <string name="preferences_showalbumart_summary">Show album art in Android Auto (might cause lag)</string>
+    <string name="preferences_showsearch_title">Show \"search\"</string>
+    <string name="preferences_showsearch_summary">Add an option to search the entire music library</string>
+    <string name="preferences_shuffleonerror_title">Shuffle on error</string>
+    <string name="preferences_shuffleonerror_summary">Shuffle when an error occurred</string>
+    <string name="preferences_showallartists_title">Show all artists</string>
+    <string name="preferences_showallartists_summary_on">Displaying all artists (Delimiter \";&#160;\")</string>
+    <string name="preferences_showallartists_summary_off">"Displaying only the first artist (Delimiter \";&#160;\")"</string>
+    <string name="preferences_excludeplaylists_title">Exclude playlists from shuffle</string>
+    <string name="preferences_excludeplaylists_summary">Selected playlists won\'t show up in shuffle</string>
+    <string name="preferences_customaction_entry_favourite">Favourite</string>
+    <string name="preferences_customaction_entry_repeat_mode">Repeat track / selection</string>
+    <string name="preferences_customaction_entry_shuffle">Shuffle selection</string>
+    <string name="preferences_customaction_entry_fast_forward">Fast Forward / Rewind</string>
+    <string name="preferences_customaction_title">Additional controls</string>
+    <string name="preferences_customaction_summary">Choose which custom controls to use in Android Auto</string>
+    <string name="preferences_launch_setup_title">Relaunch initial setup</string>
+    <string name="preferences_excludeshort_title">Exclude short tracks</string>
+    <string name="preferences_excludeshort_summary">Do not show tracks that are shorter than this amount (in seconds)</string>
+
+    <string name="error_message_wrong_path">Couldn\'t load directory</string>
+    <string name="error_message_no_music_found">"No music files found in: "</string>
+    <string name="error_message_no_playlists_found">No playlists found</string>
+    <string name="activity_main_text">This app only supports Android Auto</string>
+</resources>

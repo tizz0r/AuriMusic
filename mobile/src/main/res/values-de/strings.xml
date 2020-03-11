@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auri Music</string>
+
+    <string name="setup_welcome_text">Vielen Dank, dass sie Auri Music heruntergeladen haben.\nTippen sie auf \"Setup\u00A0beginnen\", um die Einrichtung zu starten.</string>
+    <string name="setup_button_begin">Setup beginnen</string>
+    <string name="setup_button_next">Weiter</string>
+    <string name="setup_button_back">Zurück</string>
+    <string name="setup_permission_text">Auri Music erfordert Zugriff auf den lokalen Speicher des Geräts, um Musik abzuspielen.</string>
+    <string name="setup_permission_grant_permission">Berechtigung erteilen</string>
+    <string name="setup_permission_grant_permission_disabled">Berechtigung erteilt</string>
+    <string name="setup_select_folder_text">Wo soll Auri Music nach Musik suchen?</string>
+    <string name="setup_select_folder_search_everywhere">Durchsuche das gesamte Gerät</string>
+    <string name="setup_select_folder_search_folder">Durchsuche nur diesen Ordner</string>
+    <string name="setup_other_preferences_text">Die Einrichtung ist jetzt abgeschlossen, weitere Einstellungsmöglichkeiten sind im Menu \"Einstellungen\" verfügbar.</string>
+    <string name="setup_button_finish">Setup beenden</string>
+
+    <string name="preferences_title">Einstellungen</string>
+    <string name="preferences_showalbumart_title">Albumcover anzeigen</string>
+    <string name="preferences_showalbumart_summary">Zeigt die Albumcover in Android Auto (Kann App verlangsamen)</string>
+    <string name="preferences_showsearch_title">\"Suche\" anzeigen</string>
+    <string name="preferences_showsearch_summary">Fügt die Option hinzu, die gesamte Musikbibliothek zu durchsuchen</string>
+    <string name="preferences_excludeplaylists_title">Wiedergabelisten von \"Zufällig\" ausschließen</string>
+    <string name="preferences_shuffleonerror_title">Bei Fehler zufällige Wiedergabe starten</string>
+    <string name="preferences_shuffleonerror_summary">Starte die zufällige Wiedergabe wenn ein Fehler aufgetreten ist</string>
+    <string name="preferences_showallartists_title">Alle Künstler anzeigen</string>
+    <string name="preferences_showallartists_summary_on">Alle Künstler werden angezeigt (Trennsymbol \";&#160;\")</string>
+    <string name="preferences_showallartists_summary_off">Nur der erste Künstler wird angezeigt (Trennsymbol \";&#160;\")</string>
+    <string name="preferences_excludeplaylists_summary">Ausgewählte Wiedergabelisten werden nicht in \"Zufällig\" erscheinen</string>
+    <string name="preferences_customaction_entry_favourite">Favorisieren</string>
+    <string name="preferences_customaction_entry_repeat_mode">Song / Auswahl wiederholen</string>
+    <string name="preferences_customaction_entry_shuffle">Zufällige Wiedergabe aktivieren</string>
+    <string name="preferences_customaction_entry_fast_forward">Vor- / Zurückspulen</string>
+    <string name="preferences_customaction_title">Zusätzliche Funktionen</string>
+    <string name="preferences_customaction_summary">Wähle, welche Funktionen in Android Auto zur Verfügung stehen sollen</string>
+    <string name="preferences_launch_setup_title">Erstmalige Einrichtung erneut ausführen</string>
+    <string name="preferences_category_general">Allgemein</string>
+    <string name="preferences_category_auto">Android Auto</string>
+    <string name="preferences_category_advanced">Erweitert</string>
+    <string name="preferences_excludeshort_title">Kurze Songs ausschließen</string>
+    <string name="preferences_excludeshort_summary">Zeige keine Songs, die kürzer als dieser Wert sind (in Sekunden)</string>
+    <string name="error_message_wrong_path">Fehler beim Laden des Ordners</string>
+    <string name="error_message_no_music_found">"Keine Musik gefunden in Ordner: "</string>
+    <string name="error_message_no_playlists_found">Keine Playlisten gefunden</string>
+    <string name="activity_main_text">Diese App unterstützt nur Android Auto</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="queue_title">Wiedergabeliste</string>
+    <string name="shuffle">Zufällig</string>
+    <string name="search">Suchen</string>
+    <string name="celi_favourites">Favoriten</string>
+    <string name="recent">Neuste</string>
+    <string name="playlists">Playlisten</string>
+    <string name="tracks">Songs</string>
+    <string name="albums">Alben</string>
+    <string name="artists">Künstler</string>
+    <string name="genres">Genres</string>
+    <string name="shuffle_artist_title">"Gib alle Songs wieder von "</string>
+
+    <string name="error_message_permission">Bitte öffne die App auf deinem Gerät und erteile die benötigten Berechtigungen</string>
+    <string name="error_message_setup">Die erstmalige Einrichtung wurde nicht beendet, bitte öffne die App auf deinem Gerät</string>
+    <string name="error_message_no_search_results">Keine Suchergebnisse</string>
+</resources>

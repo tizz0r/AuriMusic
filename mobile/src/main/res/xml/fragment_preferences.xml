@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/preferences_category_general">
+        <SeekBarPreference
+            android:defaultValue="0"
+            android:key="@string/preferences_excludeshort_key"
+            android:summary="@string/preferences_excludeshort_summary"
+            android:title="@string/preferences_excludeshort_title"
+            android:max="120"
+            app:showSeekBarValue="true" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/preferences_shuffleonerror_key"
+            android:summary="@string/preferences_shuffleonerror_summary"
+            android:title="@string/preferences_shuffleonerror_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/preferences_showallartists_key"
+            android:summaryOn="@string/preferences_showallartists_summary_on"
+            android:summaryOff="@string/preferences_showallartists_summary_off"
+            android:title="@string/preferences_showallartists_title" />
+        <MultiSelectListPreference
+            android:key="@string/preferences_excludedplaylists_key"
+            android:summary="@string/preferences_excludeplaylists_summary"
+            android:title="@string/preferences_excludeplaylists_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preferences_category_auto">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/preferences_showalbumart_key"
+            android:summary="@string/preferences_showalbumart_summary"
+            android:title="@string/preferences_showalbumart_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/preferences_showsearch_key"
+            android:summary="@string/preferences_showsearch_summary"
+            android:title="@string/preferences_showsearch_title" />
+        <MultiSelectListPreference
+            android:entries="@array/preferences_customaction_entries"
+            android:entryValues="@array/preferences_customaction_values"
+            android:defaultValue="@array/preferences_customaction_default_values"
+            android:key="@string/preferences_customaction_key"
+            android:summary="@string/preferences_customaction_summary"
+            android:title="@string/preferences_customaction_title"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preferences_category_advanced">
+        <Preference
+            android:key="@string/preferences_launch_setup_key"
+            android:title="@string/preferences_launch_setup_title">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="de.timschubert.uwumusic"
+                android:targetClass="de.timschubert.uwumusic.ui.SetupActivity" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
